@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Aaron's GitHub Portfolio</title>
+    
+</head>
+<body>
+    <!--NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">My Portfolio</a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="./projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- Projects -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md p-3">
+                    <div class="card bg-dark text-light" style="height: 45rem;">
+                        <img class="card-img-top" src="./img/PacManSS.png" alt="Card image cap">
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Pacmen</h3>
+                        <p class="card-text">This game allows users to generate new Pac-men at the click of a button. Once generated, users can have these Pac-men will bounce against the walls of their window. A callback function is used to update the position Pac-men and give them movement.</p>
+                        <a href="https://github.com/a-woon/PacMen" class="btn btn-primary">View Code on GitHub</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md p-3">
+                    <div class="card bg-dark text-light" style="height: 45rem;">
+                        <img class="card-img-top" src="./img/EyeMovementSS.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                          <h3 class="card-title">Eye Exercise</h3>
+                          <p class="card-text">This project features two eyes that follows your cursor wherever it goes. CSS was used to create the eyes and the iris. The DOM event onmousemove is used to identify the position of the cursor and update the position of the eyes accordingly using CSS transform. </p>
+                          <a href="https://github.com/a-woon/eye-movement" class="btn btn-primary">View Code on GitHub</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md p-3">
+                    <div class="card bg-dark text-light" style="height: 45rem;">
+                        <img class="card-img-top" src="./img/bustrackerSS.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                          <h3 class="card-title">Bus Tracker</h3>
+                          <p class="card-text">I got a chance to develop a tracker that shows a map of Boston and the location of bus stops between Harvard and MIT. This project was developed with mapbox, a third party that allows users to create markers and customise the map to their liking. </p>
+                          <a href="https://github.com/a-woon/bus-tracker" class="btn btn-primary">View Code on GitHub</a>
+                        </div>
+                      </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
